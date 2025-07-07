@@ -1,0 +1,679 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:arial;
+  }
+  
+  /* NAV-BAR */
+  .nav-bar{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:50px;
+   background-color:#fefbf2
+  }
+  
+  .logo img{
+    height:42px;
+    margin:4px 170px 2px 5px
+  }
+  
+  .home{
+    color:#f56f42;
+  }
+  
+  .nav-options{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    font-size:14px;
+    font-weight:700;
+  }
+  
+  
+  /* HIDE-DIVS */
+  .about:hover + .hidden-div1{
+    display:block
+  }
+  .hidden-div1{
+    background-color: white;
+    position:absolute;
+    top:50px;
+    height:100px;
+    width:22%;
+    padding:5px;
+    padding-top:27px;
+    margin-left:150px;
+    border-top:2px solid #1b5445;
+    display:none
+  }
+  .hidden-div1 p{
+    border-bottom:1px dotted #e8e7e3;
+   font-size:14px;
+    font-weight:500;
+    margin:0px 0px 15px 18px;
+  }
+  
+  .service:hover + .hidden-div2{
+    display:block
+  }
+  .hidden-div2{
+    position:absolute;
+    top:50px;
+    height:480px;
+    width:92%;
+    background-color: white;
+    border-top:2px solid #1b5445;
+    display:none ;
+  }
+  .vertical{
+    display:flex;
+    justify-content:space-evenly;
+    height:460px;
+    margin-top:25px;
+  }
+  
+  .h{
+    background-color:#e3dd9f;
+    padding:7px;
+    font-weight:900;
+    font-size:15px;
+  }
+  .one,.two,.three,.fours,.fives,.sixs{
+    font-weight:500;
+    width:12%;
+    border-bottom:1px 
+  }
+  .one p,.two p,.three p,.fours p,.fives p,.sixs p{
+    margin-top:12px;
+    font-size:14px;
+  }
+  
+  .work:hover + .hidden-div3{
+    display:block
+  }
+  .hidden-div3{
+    background-color: white;
+    position:absolute;
+    top:50px;
+    height:130px;
+    width:22%;
+    padding:5px;
+    padding-top:27px;
+    margin-left:460px;
+    border-top:2px solid #1b5445;
+    display:none;
+  }
+  .hidden-div3 p{
+    border-bottom:1px dotted #e8e7e3;
+   font-size:14px;
+    font-weight:500;
+    margin:0px 0px 15px 18px;
+  }
+  
+  
+  /* PANEL-1 */
+  .panel1-img{
+    height:320px;
+    width:100%;
+    background-size:cover;
+  }
+  .panel1{
+    height:483px;
+    background-image:url("https://webwallah.in/wp-content/uploads/2025/05/her-cov-scaled.webp");
+    background-size:cover;
+  }
+  .parahs{
+    margin-left:60px;
+    padding-top:103px;
+  }
+  #para-1{
+    color:white;
+    font-weight:900;
+    font-size:35px
+  }
+  #para-2{
+    color:#f9dd86;
+    padding-top:13px;
+    font-size:20px
+  }
+  #para-3{
+  color:white;
+    padding-top:15px;
+  }
+  
+  /* PANEL-2 */
+  .panel2{
+    background-color:#1b5445;
+    height:280px;
+  }
+  .msg-btn{
+    position:fixed;
+    left:910px;
+    top:510px;
+    justify-content:flex-start;
+    border-radius:50%;
+    height:48px;
+    width:48px;
+    background-color:#1e4a2e;
+    color:white;
+    font-size:22px;
+    border:none;
+  }
+  .msg{
+    height:50px;
+    color:white;
+    font-size:38px;
+    font-weight:900;
+    display:flex;
+    justify-content:center;
+    padding-top:70px
+  }
+  .images{
+    display:flex;
+    justify-content:space-evenly;
+    height:120px;
+    width:100%;
+    padding:0px 6px 0px 6px;
+    margin:50px 20px 0px 0px;
+  }
+  
+  .first{
+    height:80px;
+    width:12%;
+    background-image:url("https://webwallah.in/wp-content/uploads/2024/05/innog.webp");
+    background-size:cover;
+  }
+  .sec{
+    height:80px;
+    width:12%;
+    background-image:url("https://webwallah.in/wp-content/uploads/2025/02/phonelerame.webp");
+  background-size:cover;
+  }
+  .third{
+    height:80px;
+    width:12%;
+    background-image:url("https://webwallah.in/wp-content/uploads/2024/04/Web-Wallah-Clients-Logo.022.webp");
+  background-size:cover;
+  }
+  .four{
+    height:80px;
+    width:12%;
+    background-image:url("https://webwallah.in/wp-content/uploads/2024/04/respicite.webp");
+  background-size:cover;
+  }
+  .five{
+    height:80px;
+    width:12%;
+    background-image:url("https://webwallah.in/wp-content/uploads/2024/04/Web-Wallah-Clients-jaahaaj.webp");
+  background-size:cover;
+  }
+  .six{
+    height:80px;
+    width:12%;
+    background-image:url("https://webwallah.in/wp-content/uploads/2025/01/preetijd.001.png");
+  background-size:cover;
+  }
+  /* PANEL-3 */
+  .panel3{
+    height:1130px;
+    width:100%;
+    background-color:#fdf2f0;
+  }
+  .services{
+    color:#e65e46;
+    font-weight:900;
+    font-size:19px;
+    text-align:center;
+    padding-top:50px;
+    margin-bottom:18px;
+    
+  }
+  .partner{
+    color:black;
+    padding:17px;
+    margin-left:250px;
+    background-color:#f2eba7;
+    font-weight:700;
+    font-size:25px;
+    padding-bottom:20px;
+  }
+  .keywords{
+   display:flex;
+    justify-content:space-evenly;
+    margin-top:50px;
+    margin-left:30px;
+  }
+  .key1 p:hover{
+    color:#e65e46;
+  }
+  .key2 p:hover{
+    color:#e65e46;
+  }
+  .key3 p:hover{
+    color:#e65e46;
+  }
+  .heading{
+    color:#1b5445;
+    font-size:25px
+  }
+  .key1 p, .key2 p, .key3 p{
+    margin-bottom:17px;
+  }
+  
+  .line{
+    color:#e65e46;
+    margin-top:10px;
+    margin-bottom:20px;
+  }
+  
+  
+  /* PANEL4 */
+  .panel-4{
+    height:800px;
+  }
+  .p4-h1{
+    color:#1b5445;
+    text-align:center;
+    font-size:40px;
+    padding-top:50px
+  }
+  .p4-h3{
+    text-align:center;
+  }
+  
+  .boxes1,.boxes2{
+    margin:50px 40px 0px 60px;
+    display:grid;
+     grid-template-columns: repeat(3, 1fr);
+    gap:1px;
+  }
+  .box1,.box2,.box3, 
+  .box4, .box5, .box6{
+    height:210px;
+    width:71%;
+    border-radius:10px;
+    padding:32px 30px 5px 30px;
+    background-color:#f9f0fc;;
+  }
+  .box2{
+    background-color:#fdf2f0;
+  }
+  .box3{
+    background-color:#fefbf2;
+  }
+  .box4{
+    background-color:#e1eaf2;
+  }
+  .box5{
+    background-color:fcf9e6
+  }
+  .box6{
+    background-color:#edfced;
+  }
+  .box1 p,.box2 p,.box3 p,
+  .box4 p,.box5 p,.box6 p{
+    margin-top:15px
+  }
+  
+  
+  /* PANEL5 */
+  .panel-5{
+    background-color:#fefbf2;
+    height:580px;
+  }
+  .p5-h1,.p11-h1{
+    color:#e65e46;
+    text-align:center;
+    font-size:40px;
+    padding-top:50px;
+    font-weight:900;
+  }
+  .p5-h3,.p11-h3{
+    text-align:center;
+    margin-top:5px
+  }
+  
+  .round-boxes{
+    margin:50px 50px 0px 60px;
+    display:grid;
+     grid-template-columns: repeat(3, 1fr);
+    gap:1px;
+  }
+  .r-box1,.r-box2,.r-box3{
+    text-align:center;
+    height:270px;
+    width:71%;
+    border-radius:10px;
+    padding:35px 30px 39px 30px;
+    background-color:#f9f0fc;;
+    border-top:4px solid #4ecf6c;
+  }
+  
+  .r-box2{
+    background-color:#fdf2f0;
+    border-top:4px solid #e65e46;;
+  }
+  .r-box3{
+    background-color:#f9f0fc; 
+    border-top:4px solid #8225b8;
+  }
+  .r-box1 p,.r-box2 p,.r-box3 p{
+    margin-top:15px
+  }
+  
+  
+  /* PANEL-6 */
+  .panel-6{
+    height:640px;
+  }
+  .p6-h1,.p7-h1{
+    color:#1b5445;
+    text-align:center;
+    font-size:40px;
+    padding-top:50px
+  }
+  .p6-h3,.p7-h3{
+    text-align:center;
+    padding:8px;
+  }
+  .p6-divs{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:40px;
+    height:160px;
+  }
+  .img1,.img2,.img3{
+    height:150px;
+    width:25%;
+  }
+  
+  .img1{
+    background-image:url("https://webwallah.in/wp-content/uploads/2025/03/Miriam.webp");
+    background-size:cover;
+    margin-left:70px;
+  }
+  .img2 {
+    background-image:url("https://webwallah.in/wp-content/uploads/2025/03/Taco.webp");
+    background-size:cover;
+  }
+  .img3{
+    background-image:url("https://webwallah.in/wp-content/uploads/2025/03/Rashmi.webp");
+    background-size:cover;
+    margin-right:70px;
+  }
+  
+  .div-info{
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .info1,.info2,.info3{
+    height:200px;
+    width:30%;
+    text-align:center;
+  }
+  .info1{
+    margin-left:70px;
+  }
+  .info3{
+    margin-right:70px;
+  }
+  .info1 h2,.info2 h2,.info3 h2{
+    margin-left:20px
+  }
+  .info1 p,.info2 p,.info3 p{
+    margin:20px;
+    margin-top:10px
+  }
+  
+  .info-btn{
+    margin:5px 0px 0px 20px;
+    background-color:red;
+    color:white;
+    padding:15px 20px 15px 20px;
+    font-weight:900;
+    font-size:16px;
+    border:none;
+    border-radius:5px;
+  }
+  
+  .btn-div{
+    display:flex;
+    justify-content:center;
+  }
+  
+  .p6-btn{
+    background-color:#1b5445;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    font-weight:900;
+    padding:16px 20px 16px 20px;
+    margin:0px 0px 0px 20px;
+  }
+  
+  
+  /* PANEL-7 */
+  .panel-7{
+    height:579px;
+    background-color:#edf2f0;
+  }
+  
+  .swiper {
+    width: 85%;
+    height: 220px;
+    position:relative;
+  }
+  
+  .swiper-slide{ 
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align:center;
+  }
+  .swiper-slide h3{ 
+    margin-bottom:8px;
+    margin-top:11px;
+  }
+  .swiper-slide img{  
+    height:85%;
+    width:100%;
+    border-radius:7px;
+    object-fit: cover;
+    margin-top:25px;
+  }
+  
+  /* Optional: Center pagination bullets */
+  
+  .swiper-pagination{
+    height:90px;
+  }
+  
+  
+  
+  /* PANEL-8 */
+  .panel-8{
+    background-color:#e65e46;
+    height:420px;
+  }
+  
+  .p8-h1{
+    color:#f9dd86;;
+    text-align:center;
+    font-size:40px;
+    padding-top:50px
+  }
+  .p8-h3{
+    text-align:center;
+    margin-top:10px;
+    color:white;
+  }
+  #speacial-2{
+    text-align:center;
+    color:white;
+  }
+  
+  .price-boxes{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:40px;
+    height:65px;
+  }
+  .p-box1,.p-box2,.p-box3{
+    height:65px;
+    width:25%;
+    background-color:white;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .box-p{
+    font-weight:900;
+    font-size:25px;
+  }
+  
+  
+  /* PANEL-9 */
+  .panel-9{
+    height:230px;
+  }
+  .smile-panel{
+    display:flex;
+  }
+  .smile{
+    background-image:url("https://webwallah.in/wp-content/uploads/2024/04/smile.png");
+    height:100px;
+    width:10%;
+    margin:70px;
+  }
+  .love{
+    height:200px;
+    width:30%;
+    margin:70px
+  }
+  .love1{
+    font-weight:800;
+    font-size:27px
+  }
+  .love2{
+    font-weight:900;
+    color:#e65e46;
+    font-size:39px
+  }
+  
+  
+  /* PANEL-10 */
+  .panel-10{
+    height:750px;
+  }
+  
+  /*PANEL*/
+  .panel-11{
+    height:560px;
+    background-color:#fdf2f0;
+  }
+  .reward-img{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+    gap:10px
+  }
+  .r-img1,.r-img2,.r-img3{
+    height:290px;
+  }
+  .r-img1{
+    background-image:url("https://www.devwebtechnology.com/assets/img/Goodfirms-Badge.png");
+    background-size:cover;
+    padding-left:40px;
+    width:23%;
+  }
+  .r-img2{
+    background-image:url("https://www.badiedesigns.com/wp-content/uploads/2024/11/DesignRush-Top-Design-Agencies-in-Georgia.png");
+    object-fit:cover;
+    width:22%
+  /*  margin-top:30px*/
+  }
+  .r-img3{
+    background-image:url("https://mystique.ca/wp-content/uploads/2025/01/top_clutchco_web_design_company_government_canada.png");
+    background-size:cover;
+    height:320px;
+    width:30%;
+   /* margin-top:50px;*/
+  }
+  
+  
+  /* PANEL-12 */
+  .panel-12{
+    height:530px;
+    background-color:#22543e
+  }
+  .footer-divs{
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:60px;
+    margin-left:50px;
+    gap:15px
+  }
+  .div-1,.div-2,.div-3,
+  .div-4,.div-5{
+    color:white;
+    height: 300px;
+    width:18%;
+  }
+  .div-1 h3,.div-2 h3,.div-3 h3,
+  .div-4 h3,.div-5 h3{
+  font-weight:900;
+  } 
+  
+  .div-1 p,.div-2 p,.div-3 p,
+  .div-4 p,.div-5 p{
+   margin-top:14px;
+    font-size:13px;
+    color:#edf0f5;
+  }
+  
+  .line2{
+    font-weight:900;
+    color:grey;
+    width:21%;
+    margin:10px 0px 20px 0px;
+  }
+  
+  .copyright{
+    margin-left:50px;
+    margin-top:60px;
+    background-color:white;
+    height:80px;
+    width:89%;
+    border-radius:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px
+  }
+  .c-1{
+    font-size:13px;
+  }
+  
+  .c-2{
+    font-size:13px;
+    margin-left:70px;
+  }
+  .host{
+    margin-left:290px;
+    font-weight:700;
+    margin-top:5px
+  }
+  .brand{
+    margin-top:5px;
+  }
+  .a-img{
+    height:90px;
+    width:90%;
+  }
+  .a-img img{
+    height:30px;
+    margin-top:10px;
+  }  
